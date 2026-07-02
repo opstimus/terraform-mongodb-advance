@@ -1,3 +1,12 @@
+> ⚠️ **Moved to the monorepo.**
+> This module now lives in [`opstimus/terraform-modules`](https://github.com/opstimus/terraform-modules) at `modules/mongodb-advance`.
+>
+> ```hcl
+> source = "git::https://github.com/opstimus/terraform-modules.git//modules/mongodb-advance?ref=mongodb-advance/v1.0.0"
+> ```
+>
+> This repository remains for existing consumers; new development happens in the monorepo.
+
 # MongoDB Cluster Module
 
 ## Description
